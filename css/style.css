@@ -40,4 +40,13 @@ body {
     margin-top: 20px;
     list-style-type: none;
     color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    justify-content: space-between;
+}
+
+li {
+    background-color: var(--neutral);
+    border: 1px solid black;
 }
